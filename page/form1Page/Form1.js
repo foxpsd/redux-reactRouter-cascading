@@ -131,8 +131,7 @@ let Form1 = (props,aaa,bbb,ccc) => {
             </div>
             <div>
                 <label htmlFor="location">location</label>
-                <Field name="location" component={LocationFiled} type="text" onFocus={showCascadingLocation}/>
-                <button type="button" onClick={showCascadingLocation}>showCascadingLocation</button>
+                <Field name="location" component={LocationFiled} type="text"/>
             </div>
             <div>
         		<label htmlFor="email">Email</label>

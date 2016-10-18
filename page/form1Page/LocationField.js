@@ -56,7 +56,7 @@ class LocationField extends Component {
 				<div> 
 					<input 
 						{...input} 
-						placeholder={label} type={type}
+						placeholder="地区" type={type}
 						style={autofilled?{color:'#ff99aa'}:{color:'#555555'}}
 					/>
 					{touched && ((error && <span>{error}</span>) || (warning && <span>{warning}</span>))}
